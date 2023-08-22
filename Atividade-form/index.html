@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <title>Login Form</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <link href="assets/css/styles.css" type="text/css" rel="Stylesheet"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <main>
+        <div class="main-content">
+          <h1>Faça seu Cadastro</h1>
+          <form>
+            <div class="input-container">
+              <label for="email">E-mail</label>
+              <input placeholder="Digite seu e-mail" id="email" type="email" name="email" style="color: #666360;" required/>
+            </div>
+            <div class="input-container">
+              <label for="password">Senha</label>
+              <input placeholder="Digite sua senha" id="password" type="password" name="password" style="color: #666360;" required/>
+            </div>
+            <div>
+              <p>Qual é a função principal do pincel de barbear em uma barbearia?</p>
+  
+              <div class="radio">
+                  <input type="radio" id="a" name="assistindo">
+                  <label for="a">Esfregar o rosto antes do barbear.</label>
+              </div>
+              <div class="radio">
+                  <input type="radio" id="b" name="assistindo">
+                  <label for="b">Aplicar loção pós-barba.</label>
+              </div>
+              <div class="radio">
+                  <input type="radio" id="c" name="assistindo">
+                  <label for="c">Misturar produtos de barbear, como creme ou sabão.</label>
+              </div>
+              <div class="radio">
+                  <input type="radio" id="d" name="assistindo">
+                  <label for="d">Cortar os pelos da barba.</label>
+              </div>
+          </div>
+            <div>
+              <label for="barber">Selecione a sua barbearia:</label>
+              <select name="barber" id="barber" required>
+                  <option selected disabled>Selecione...</option>
+                  <option value="BerberShop1">BerberShop1</option>
+                  <option value="BerberShop2">BerberShop2</option>
+                  <option value="BerberShop3">BerberShop3</option>
+              </select>
+          </div>
+            <button>Cadastrar</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
